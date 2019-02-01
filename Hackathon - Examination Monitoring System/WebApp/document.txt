@@ -1,0 +1,4 @@
+# Basic Need => Setup Laravel Environment ( PHP Framework )
+
+1 - Config database from .env file  to allow web app work properly.
+2 - Import Sql File given in folder (technocrates.sql)

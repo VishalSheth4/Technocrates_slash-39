@@ -1,0 +1,41 @@
+		        Title  :  App for Monitoring of Examination System
+
+
+College Name:C.K.Pithawala college of engineering and Technology,Surat
+
+Team Name-Technocrates/
+ 
+Team Members:
+
+1 - Shah Meet(Team Leader)
+
+2 - Shah Smit
+
+3 - Patel Falgun
+
+4 - Jariwala Mayank
+
+5 - Shroff Vishv
+
+6 - Sheth Vishal
+
+
+Team Mentors:
+
+1 -  Desai Chirag
+
+2 - Gajera Vimal
+
+
+Technology Stack:
+
+-Android
+
+-PHP Laravel Framework
+
+-MySQL Database
+
+-APIs:
+  
+   -Google Polygon API
+
