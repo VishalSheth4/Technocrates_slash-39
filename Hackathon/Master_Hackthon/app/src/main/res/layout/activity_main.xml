@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="vishal.master_hackthon.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/smartindia_text"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_shape"
+            android:clickable="true"
+            android:text="UNIVERSITY/COLLEGE/school/LOGIN"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:onClick="college_school_login"
+            android:id="@+id/textView"
+            android:theme="@style/MyButton"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="evaluators_faculty_login"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+
+            android:background="@drawable/rounded_shape"
+            android:theme="@style/MyButton"
+            android:text="FACULTY/ TEACHER/ EVALUATORS/ OSDS LOGIN"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
